@@ -7,9 +7,9 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myapp.settings')
-    try:# что делает инструкция try?
+    try:# проверяет код на наличие ошибок. 
         from django.core.management import execute_from_command_line
-    except ImportError as exc:
+    except ImportError as exc: # except позволяет обрабатывать ошибку.
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
             "available on your PYTHONPATH environment variable? Did you "

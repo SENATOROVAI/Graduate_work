@@ -10,7 +10,7 @@ new_order = Signal()
 
 
 
-@receiver(reset_password_token_created)
+@receiver(reset_password_token_created) # что значит собачка?
 def password_reset_token_created(sender, instance, reset_password_token, **kwargs):
     """
     Отправляем письмо с токеном для сброса пароля

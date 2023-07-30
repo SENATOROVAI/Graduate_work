@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
-import os #что значит import?
+import os # с помощью import мы подключаем внешний файл к этому файлу
 import sys
 
 
